@@ -1,3 +1,10 @@
+// Seed para usuários e seus perfis
+INSERT INTO tb_user (name, email, password) VALUES ('Ana', 'ana@gmail.com', '$2a$10$XYGLdD88g1SaeiF7EsGO1uosXpElQEwF2bOIVp7zZ4/CprS7XZMfy');
+INSERT INTO tb_user (name, email, password) VALUES ('Bob', 'bob@gmail.com', '$2a$10$XYGLdD88g1SaeiF7EsGO1uosXpElQEwF2bOIVp7zZ4/CprS7XZMfy');
+
+INSERT INTO tb_role (authority) VALUES ('ROLE_OPERATOR');
+INSERT INTO tb_role (authority) VALUES ('ROLE_ADMIN');
+
 INSERT INTO tb_department(name) VALUES ('Sales');
 INSERT INTO tb_department(name) VALUES ('Management');
 INSERT INTO tb_department(name) VALUES ('Training');
